@@ -2,7 +2,7 @@
 /*
  * Timeago formatter class for Yii framework
  * @author Alex G <gubarev.alex@gmail.com>
- * @version 0.1
+ * @version 0.2
  */
 class TimeagoFormatter extends CFormatter
 {
@@ -32,7 +32,7 @@ class TimeagoFormatter extends CFormatter
 
     /*
      * Includes file with locale-specific data array. When locale isnt exists used default 'en' locale
-     * @param string $locale locale name (like 'ru', 'en-short' etc.)
+     * @param string $locale locale name (like 'ru', 'en_short' etc.)
      */
     private function setLocale($locale)
     {

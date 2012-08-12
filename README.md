@@ -40,13 +40,20 @@ echo Yii::app()->format->timeago('2012-07-31 19:08:58');
 ...
 'format' => array(
 				'class'=>'application.modules.timeago.TimeagoFormatter',
-            	'locale'=>'en-short',
+            	'locale'=>'en_short',
         	),
 ...
 ```
 
 #Supported locales
-Now supported locales is: en (english), en-short, ru (russian), uk (ukrainian).   
+Now supported locales is: 
+* en (english), en_short (english shortened)
+* de (german)
+* fr (french)
+* ja (japanese)
+* ru (russian)
+* uk (ukrainian)
+* zn_cn (simplified chinese), zn_tw (traditional chinese) 
 In future will be added more locales.  
 
 #Requirements
