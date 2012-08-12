@@ -5,7 +5,7 @@ Timeago formatter for yii framework
 
 #Installation
 Copy yii-timeago to your app extensions folder.  
-In config main add to componets section:  
+In config main add to components section:  
 ```php
 ...
 'components' => array(
@@ -47,4 +47,8 @@ echo Yii::app()->format->timeago('2012-07-31 19:08:58');
 
 #Supported locales
 Now supported locales is: en (english), ru (russian), uk (ukrainian).   
-In future will be added more locales.  
+In future will be added more locales.
+
+#Requirements
+* PHP 5.3
+* Yii 1.1.x (tested with 1.1.10 an highter)
