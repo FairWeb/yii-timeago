@@ -16,6 +16,34 @@ In config main add to componets section:
 ```
 
 #Examples
+```php
+// with timestamp
+echo Yii::app()->format->timeago(time() - 60 * 5); // 5 minutes ago
+
+// with DateTime object 
+echo Yii::app()->format->timeago(new DateTime('2018-07-08 11:14:15'));
+
+// with date formatted string
+echo Yii::app()->format->timeago('2012-07-31 19:08:58');
+
+// in CGridView column
+...
+'columns' => array(
+	array(  'name'=>'create_date',
+            'sortable' => true,
+            'header'=>'Date',
+            'type' => 'timeago',
+    ),
+...
+
+// force locale in main config
+...
+'format' => array(
+				'class'=>'application.modules.timeago.TimeagoFormatter',
+            	'locale'=>'en-short',
+        	),
+...
+```
 
 #Supported locales
 Now supported locales is: en (english), ru (russian), uk (ukrainian).   
