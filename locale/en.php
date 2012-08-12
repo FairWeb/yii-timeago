@@ -1,5 +1,5 @@
 <?php
-
+// English shortened
 return array (
     'prefixAgo' => NULL,
     'prefixFromNow' => NULL,

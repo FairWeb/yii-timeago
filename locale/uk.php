@@ -1,9 +1,10 @@
 <?php
+// Ukrainian
 return array(
     'prefixAgo' => NULL,
     'prefixFromNow' => "через",
     'suffixAgo' => "тому",
-    'suffixFromNow' => null,
+    'suffixFromNow' => NULL,
     'seconds' => "менше хвилини",
     'minute' => "хвилина",
     'minutes' => array("%d хвилина", "%d хвилини", "%d хвилин"),

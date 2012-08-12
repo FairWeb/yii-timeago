@@ -1,9 +1,10 @@
 <?php
+// Russian
 return array(
     'prefixAgo' => NULL,
     'prefixFromNow' => "через",
     'suffixAgo' => "назад",
-    'suffixFromNow' => null,
+    'suffixFromNow' => NULL,
     'seconds' => "меньше минуты",
     'minute' => "минуту",
     'minutes' => array("%d минута", "%d минуты", "%d минут"),
