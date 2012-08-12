@@ -54,6 +54,7 @@ Now supported locales is:
 * ru (russian)
 * uk (ukrainian)
 * zn_cn (simplified chinese), zn_tw (traditional chinese)  
+
 In future will be added more locales.  
 
 #Requirements
