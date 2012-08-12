@@ -3,9 +3,9 @@ yii-timeago
 
 Timeago formatter for yii framework
 
-#Instalation
-Copy yii-timeago to your app extensions folder
-In config main add to componets section:
+#Installation
+Copy yii-timeago to your app extensions folder  
+In config main add to componets section:  
 ```php
 ...
 'components' => array(
@@ -18,5 +18,5 @@ In config main add to componets section:
 #Examples
 
 #Supported locales
-Now supported en (+en-short), ru, uk.
-In future will be added more locales.
+Now supported en (english), ru (russian), uk (ukrainian).  
+In future will be added more locales.  
