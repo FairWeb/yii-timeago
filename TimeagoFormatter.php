@@ -60,12 +60,12 @@ class TimeagoFormatter extends CFormatter
     public function formatTimeago($value)
     {
         if ($value instanceof DateTime) {
-            $time = date_timestamp_get($value);
+            $value = date_timestamp_get($value);
         }else if (is_string($value)) {
-            $time = strtotime($value);
+            $value = strtotime($value);
         }
 
-        return $this->inWords((time() - $time));
+        return $this->inWords((time() - $value));
     }
 
     /*
@@ -81,6 +81,8 @@ class TimeagoFormatter extends CFormatter
             $prefix = $this->data['prefixFromNow'];
             $suffix = $this->data['suffixFromNow'];
         }
+
+        $seconds = abs($seconds);
 
         $minutes = $seconds / 60;
         $hours = $minutes / 60;
