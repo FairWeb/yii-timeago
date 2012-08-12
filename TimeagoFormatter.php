@@ -2,7 +2,7 @@
 /*
  * Timeago formatter class for Yii framework
  * @author Alex G <gubarev.alex@gmail.com>
- * @version 0.2
+ * @version 0.21
  */
 class TimeagoFormatter extends CFormatter
 {
@@ -14,10 +14,6 @@ class TimeagoFormatter extends CFormatter
      * @var boolean allow future prefix in 'timeago' output
      */
     public $allowFuture = true;
-    /*
-     *  @var string date format pattern for 'time' formatter
-     */
-    public $dateFormat  = 'Y-m-d (H:i:s)';
 
     private $data;
 
@@ -42,14 +38,6 @@ class TimeagoFormatter extends CFormatter
             $path = dirname(__FILE__).DIRECTORY_SEPARATOR.'locale'.DIRECTORY_SEPARATOR.$this->locale.'.php';
         }
         $this->data = require($path);
-    }
-
-    /*
-     * Formats date string by $dateFormat pattern
-     */
-    public function formatTime($value)
-    {
-       	return date($this->dateFormat, strtotime($value));
     }
 
     /*
