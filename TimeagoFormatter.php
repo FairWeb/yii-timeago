@@ -13,7 +13,7 @@ class TimeagoFormatter extends CFormatter
     /*
      * @var boolean allow future prefix in 'timeago' output
      */
-	public $allowFuture = true;
+    public $allowFuture = true;
     /*
      *  @var string date format pattern for 'time' formatter
      */
