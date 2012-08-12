@@ -47,7 +47,8 @@ echo Yii::app()->format->timeago('2012-07-31 19:08:58');
 
 #Supported locales
 Now supported locales is: en (english), en-short, ru (russian), uk (ukrainian).   
-In future will be added more locales.
+In future will be added more locales.  
+
 
 #Requirements
 * PHP 5.3
