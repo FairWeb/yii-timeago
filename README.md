@@ -7,12 +7,14 @@ Timeago formatter for yii framework
 Copy yii-timeago to your app extensions folder.  
 In config main add to components section:  
 ```php
+<?php
 ...
 'components' => array(
 	'format'=>array(
 		'class'=>'application.extensions.timeago.TimeagoFormatter',
     ),
 ...
+?>
 ```
 
 #Examples
