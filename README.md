@@ -16,7 +16,7 @@ In config main add to components section:
 ```
 
 #Examples
-```php
+<?php
 // with timestamp
 echo Yii::app()->format->timeago(time() - 60 * 5); // 5 minutes ago
 
@@ -43,7 +43,7 @@ echo Yii::app()->format->timeago('2012-07-31 19:08:58');
             	'locale'=>'en_short',
         	),
 ...
-```
+?>
 
 #Supported locales
 * en (english), en_short (english shortened)
