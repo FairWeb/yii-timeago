@@ -1,5 +1,5 @@
 <?php
-// English shortened
+// Estonian
 return array (
     'prefixAgo' => NULL,
     'prefixFromNow' => NULL,
