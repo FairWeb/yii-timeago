@@ -1,6 +1,7 @@
 <?php
 // Estonian
 return array (
+    'never' => 'never',
     'prefixAgo' => NULL,
     'prefixFromNow' => NULL,
     'suffixAgo' => 'tagasi',

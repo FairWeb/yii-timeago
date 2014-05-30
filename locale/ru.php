@@ -1,6 +1,7 @@
 <?php
 // Russian
 return array(
+    'never' => 'никогда',
     'prefixAgo' => NULL,
     'prefixFromNow' => "через",
     'suffixAgo' => "назад",

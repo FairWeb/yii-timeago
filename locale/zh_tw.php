@@ -2,6 +2,7 @@
 // Traditional Chinese
 return array (
     'prefixAgo' => NULL,
+    'never' => '從來不',
     'prefixFromNow' => "從現在開始",
     'suffixAgo' => "之前",
     'suffixFromNow' => NULL,

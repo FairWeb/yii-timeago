@@ -47,9 +47,16 @@ class TimeagoFormatter extends CFormatter
      */
     public function formatTimeago($value)
     {
+
+        // Quickfix if the date is not set
+        if ($value == '0000-00-00 00:00:00' or $value == '') {
+            return $this->data['never'];
+        }
+
         if ($value instanceof DateTime) {
             $value = date_timestamp_get($value);
-        }else if (is_string($value)) {
+        }
+        else if (is_string($value)) {
             $value = strtotime($value);
         }
 

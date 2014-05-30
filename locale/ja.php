@@ -1,8 +1,9 @@
 <?php
 // Japanese
-return array (
-    'prefixAgo' => NULL,
-    'prefixFromNow' =>  "今から",
+return array(
+    'never' => '決して',
+    'prefixAgo' => null,
+    'prefixFromNow' => "今から",
     'suffixAgo' => "前",
     'suffixFromNow' => "後",
     'seconds' => "ほんの数秒",
@@ -18,5 +19,5 @@ return array (
     'years' => "%d 年",
     'wordSeparator' => '',
     'rules' => array(),
-    'numbers' => array (),
+    'numbers' => array(),
 );

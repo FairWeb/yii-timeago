@@ -1,6 +1,7 @@
 <?php
 // Ukrainian
 return array(
+    'never' => 'ніколи',
     'prefixAgo' => NULL,
     'prefixFromNow' => "через",
     'suffixAgo' => "тому",

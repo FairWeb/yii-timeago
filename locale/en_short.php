@@ -1,6 +1,7 @@
 <?php
 // English shortened
 return array(
+    'never' => 'never',
     'prefixAgo' => NULL,
     'prefixFromNow' => NULL,
     'suffixAgo' => "",

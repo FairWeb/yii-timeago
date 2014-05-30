@@ -1,6 +1,7 @@
 <?php
 // German
 return array (
+    'never' => 'nie',
     'prefixAgo' => "vor",
     'prefixFromNow' => "in",
     'suffixAgo' => NULL,

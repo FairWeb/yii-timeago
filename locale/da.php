@@ -1,6 +1,7 @@
 <?php
 // Danish translation
 return array(
+    'never' => 'aldrig',
     'prefixAgo' => 'for',
     'prefixFromNow' => 'om',
     'suffixAgo' => 'siden',

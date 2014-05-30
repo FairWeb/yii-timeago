@@ -1,6 +1,7 @@
 <?php
 // Simplified Chinese
 return array (
+    'never' => '从来没有',
     'prefixAgo' => NULL,
     'prefixFromNow' => "从现在开始",
     'suffixAgo' => "之前",

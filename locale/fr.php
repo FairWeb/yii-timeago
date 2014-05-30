@@ -2,6 +2,7 @@
 // French
 return array (
     // environ ~= about, it's optional
+    'never' => 'jamais',
     'prefixAgo' => "il y a",
     'prefixFromNow' => "d'ici",
     'suffixAgo' => NULL,
