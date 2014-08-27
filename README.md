@@ -51,13 +51,15 @@ echo Yii::app()->format->timeago('2012-07-31 19:08:58');
 
 #Supported locales
 * en (english), en_short (english shortened)
+* da (danish) @lauer
 * de (german)
 * fr (french)
 * ja (japanese)
 * ru (russian)
 * uk (ukrainian)
-* et (estonian)
+* et (estonian) @kullar84
 * zn_cn (simplified chinese), zn_tw (traditional chinese)  
+* es (spanish) @yepes
 
 In future will be added more locales.  
 
