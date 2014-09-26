@@ -51,7 +51,7 @@ echo Yii::app()->format->timeago('2012-07-31 19:08:58');
 
 #Supported locales
 * en (english), en_short (english shortened)
-* da (danish) @lauer
+* da (danish), da_short @lauer
 * de (german)
 * fr (french)
 * ja (japanese)
